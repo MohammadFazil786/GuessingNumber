@@ -5,7 +5,7 @@ import 'react-circular-progressbar/dist/styles.css';
      const percentage = props.percentage;
      return(
        <div style={{marginBottom: '40px'}}>
-         <p>In This, Full Ring Has Total Value = {props.total}</p>
+         <h4>In This, Full Ring Has Total Value = {props.total}</h4>
          <div style={{marginBottom: '40px'}}>
                <CircularProgressbar
         value={percentage}
