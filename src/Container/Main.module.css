@@ -1,0 +1,29 @@
+.Main{
+    height: 25%;
+     width: 25%;
+     margin-top: 40px;
+     padding-bottom: 40px;
+     margin-left: 36%;  
+}
+.Para1{
+    font-size: 35px;
+    font-weight: 600;
+}
+.Para2{
+    font-size: 25px;
+    font-weight: 500;
+    color: rgb(93, 92, 92);
+}
+@media(max-width: 950px){
+    .Main{
+        height: 50%;
+        width: 50%;
+    }
+}
+@media(max-width: 510px){
+    .Main{
+        height: 70%;
+        width: 70%;
+        margin-left: 15%; 
+    }
+}
